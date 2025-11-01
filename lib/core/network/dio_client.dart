@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 // import 'package:pretty_dio_logger/pretty_dio_logger.dart'; // Desabilitado
-import '../constants/api_constants.dart';
+import '../constants/api_config.dart';
 import 'api_interceptor.dart';
 
 /// Cliente HTTP centralizado
@@ -12,12 +12,12 @@ class DioClient {
     if (_dio == null) {
       _dio = Dio(
         BaseOptions(
-          baseUrl: ApiConstants.baseUrl,
-          connectTimeout: ApiConstants.connectTimeout,
-          receiveTimeout: ApiConstants.receiveTimeout,
+          baseUrl: ApiConfig.baseUrl,
+          connectTimeout: ApiConfig.connectTimeout,
+          receiveTimeout: ApiConfig.receiveTimeout,
           headers: {
-            'Content-Type': ApiConstants.contentType,
-            'Accept': ApiConstants.accept,
+            'Content-Type': ApiConfig.contentType,
+            'Accept': ApiConfig.accept,
           },
         ),
       );

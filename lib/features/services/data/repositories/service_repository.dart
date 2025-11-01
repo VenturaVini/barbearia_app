@@ -1,4 +1,4 @@
-import '../../../../core/constants/api_constants.dart';
+import '../../../../core/constants/api_config.dart';
 import '../../../../core/network/dio_client.dart';
 import '../../domain/entities/service.dart';
 import '../models/service_model.dart';
@@ -8,7 +8,7 @@ class ServiceRepository {
   /// Listar todos os serviços ativos
   Future<List<Service>> getServices() async {
     final response = await DioClient.get(
-      ApiConstants.services,
+      ApiConfig.services,
     );
 
     final List<dynamic> data = response.data['results'] ?? response.data;
@@ -18,7 +18,7 @@ class ServiceRepository {
   /// Buscar serviço por ID
   Future<Service> getServiceById(int id) async {
     final response = await DioClient.get(
-      '${ApiConstants.services}$id/',
+      '${ApiConfig.services}$id/',
     );
 
     return ServiceModel.fromJson(response.data).toEntity();
@@ -33,7 +33,7 @@ class ServiceRepository {
     String? imageUrl,
   }) async {
     final response = await DioClient.post(
-      ApiConstants.services,
+      ApiConfig.services,
       data: {
         'name': name,
         'description': description,
@@ -57,7 +57,7 @@ class ServiceRepository {
     bool? isActive,
   }) async {
     final response = await DioClient.patch(
-      '${ApiConstants.services}$id/',
+      '${ApiConfig.services}$id/',
       data: {
         if (name != null) 'name': name,
         if (description != null) 'description': description,
@@ -74,7 +74,7 @@ class ServiceRepository {
   /// Deletar serviço (apenas Admin)
   Future<void> deleteService(int id) async {
     await DioClient.delete(
-      '${ApiConstants.services}$id/',
+      '${ApiConfig.services}$id/',
     );
   }
 }

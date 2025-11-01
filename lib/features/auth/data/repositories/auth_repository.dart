@@ -1,4 +1,4 @@
-import '../../../../core/constants/api_constants.dart';
+import '../../../../core/constants/api_config.dart';
 import '../../../../core/network/dio_client.dart';
 import '../../../../core/storage/secure_storage.dart';
 import '../../domain/entities/user.dart';
@@ -13,7 +13,7 @@ class AuthRepository {
     required String password,
   }) async {
     final response = await DioClient.post(
-      ApiConstants.login,
+      ApiConfig.login,
       data: {
         'username': username,
         'password': password,
@@ -47,7 +47,7 @@ class AuthRepository {
     String? phone,
   }) async {
     final response = await DioClient.post(
-      ApiConstants.register,
+      ApiConfig.register,
       data: {
         'username': username,
         'email': email,
@@ -77,7 +77,7 @@ class AuthRepository {
 
   /// Obter usuário atual
   Future<User> getCurrentUser() async {
-    final response = await DioClient.get(ApiConstants.me);
+  final response = await DioClient.get(ApiConfig.me);
     final userModel = UserModel.fromJson(response.data);
     return userModel.toEntity();
   }
@@ -85,7 +85,7 @@ class AuthRepository {
   /// Logout
   Future<void> logout() async {
     try {
-      await DioClient.post(ApiConstants.logout);
+  await DioClient.post(ApiConfig.logout);
     } catch (e) {
       // Ignorar erros de logout no servidor
     } finally {
@@ -105,7 +105,7 @@ class AuthRepository {
     required String newPassword,
   }) async {
     await DioClient.post(
-      ApiConstants.changePassword,
+      ApiConfig.changePassword,
       data: {
         'old_password': oldPassword,
         'new_password': newPassword,
