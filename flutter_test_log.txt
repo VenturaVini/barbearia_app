@@ -1,0 +1,271 @@
+Launching lib/main.dart on sdk gphone64 arm64 in debug mode...
+Running Gradle task 'assembleDebug'...                           1.949ms
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+Installing build/app/outputs/flutter-apk/app-debug.apk...          420ms
+D/FlutterJNI( 8542): Beginning load of flutter...
+D/FlutterJNI( 8542): flutter (null) was loaded normally!
+I/flutter ( 8542): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+Syncing files to device sdk gphone64 arm64...                      124ms
+
+Flutter run key commands.
+r Hot reload. 🔥🔥🔥
+R Hot restart.
+h List all available interactive commands.
+d Detach (terminate "flutter run" but leave application running).
+c Clear the screen
+q Quit (terminate the application on the device).
+
+A Dart VM Service on sdk gphone64 arm64 is available at: http://127.0.0.1:55652/tP-z24l-iz0=/
+The Flutter DevTools debugger and profiler on sdk gphone64 arm64 is available at: http://127.0.0.1:9101?uri=http://127.0.0.1:55652/tP-z24l-iz0=/
+I/Choreographer( 8542): Skipped 74 frames!  The application may be doing too much work on its main thread.
+W/OpenGLRenderer( 8542): Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+W/OpenGLRenderer( 8542): Failed to initialize 101010-2 format, error = EGL_SUCCESS
+I/Gralloc4( 8542): mapper 4.x is not supported
+E/OpenGLRenderer( 8542): Unable to match the desired swap behavior.
+I/Choreographer( 8542): Skipped 36 frames!  The application may be doing too much work on its main thread.
+D/EGL_emulation( 8542): app_time_stats: avg=18.20ms min=9.16ms max=88.60ms count=56
+D/EGL_emulation( 8542): app_time_stats: avg=16.66ms min=12.24ms max=20.72ms count=60
+W/WindowOnBackDispatcher( 8542): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8542): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/ProfileInstaller( 8542): Installing profile for com.barbearia.barbearia_app
+I/ImeTracker( 8542): com.barbearia.barbearia_app:df2003f1: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+D/EGL_emulation( 8542): app_time_stats: avg=772.97ms min=0.79ms max=20385.08ms count=27
+D/InputMethodManager( 8542): showSoftInput() view=io.flutter.embedding.android.FlutterView{2f64398 VFE...... .F....ID 0,0-1080,2337 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/InsetsController( 8542): show(ime(), fromIme=true)
+I/ImeTracker( 8542): com.barbearia.barbearia_app:df2003f1: onShown
+D/EGL_emulation( 8542): app_time_stats: avg=46.30ms min=4.54ms max=466.88ms count=26
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/ImeTracker( 8542): com.barbearia.barbearia_app:df8ee7c5: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+D/InputMethodManager( 8542): showSoftInput() view=io.flutter.embedding.android.FlutterView{2f64398 VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 8542): com.barbearia.barbearia_app:1cfb7f6f: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+D/InputMethodManager( 8542): showSoftInput() view=io.flutter.embedding.android.FlutterView{2f64398 VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+D/InsetsController( 8542): show(ime(), fromIme=true)
+I/ImeTracker( 8542): com.barbearia.barbearia_app:1cfb7f6f: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation( 8542): app_time_stats: avg=43.85ms min=11.09ms max=217.84ms count=23
+D/EGL_emulation( 8542): app_time_stats: avg=127.75ms min=9.29ms max=218.72ms count=8
+I/flutter ( 8542): 🔵 [AuthBloc] Tentando login com: admin
+I/ImeTracker( 8542): com.barbearia.barbearia_app:48f7627c: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+W/WindowOnBackDispatcher( 8542): sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@59557760 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@b820ec5
+D/EGL_emulation( 8542): app_time_stats: avg=1205.67ms min=7.97ms max=23016.65ms count=22
+I/flutter ( 8542): ✅ [AuthBloc] Login bem-sucedido: admin
+I/ImeTracker( 8542): com.barbearia.barbearia_app:7cc2c871: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+I/ImeTracker( 8542): com.barbearia.barbearia_app:48f7627c: onHidden
+I/flutter ( 8542): 🔵 Carregando estatísticas do dashboard...
+W/WindowOnBackDispatcher( 8542): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8542): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/flutter ( 8542): ✅ Respostas recebidas:
+I/flutter ( 8542):   - Barbeiros: [{id: 25, username: jonasteste, email: jonasteste@gmail.com, first_name: Jonas, last_name: Teste, phone: +5584937277737, avatar_url: null, is_barber: true, is_staff: false, user_type: barber, full_name: Jonas Teste, created_at: 2025-11-01T14:31:40-0300, updated_at: 2025-11-01T14:31:40-0300}, {id: 15, username: bar1, email: bar1@gmail.com, first_name: barba, last_name: barba, phone: +5581958834834, avatar_url: null, is_barber: true, is_staff: false, user_type: barber, full_name: barba barba, created_at: 2025-10-30T10:05:23-0300, updated_at: 2025-10-30T10:05:23-0300}]
+I/flutter ( 8542):   - Serviços: {count: 13, next: null, previous: null, results: [{id: 3, name: Barba Completa, description: Barba com toalha quente e finalização, duration_minutes: 30, price: 30.00, image_url: null, is_active: true, created_at: 2025-10-29T20:09:46-0300, updated_at: 2025-10-29T20:09:46-0300}, {id: 2, name: Corte + Barba, description: Corte de cabelo + barba completa, duration_minutes: 45, price: 50.00, image_url: null, is_active: true, created_at: 2025-10-29T20:09:46-0300, updated_at: 2025-10-29T20:09:46-0300}, {id: 6, name: Corte Infantil, description: Corte de cabelo para crianças até 12 anos, duration_minutes: 25, price: 25.00, image_url: null, is_active: true, created_at: 2025-10-29T20:09:46-0300, updated_at: 2025-10-29T20:09:46-0300}, {id: 5, name: Corte Premium, description: Corte moderno com lavagem e finalização, duration_minutes: 60, price: 70.00, image_url: null, is_active: true, created_at: 2025-10-29T20:09:46-0300, updated_at: 2025-10-29T20:09:46-0300}, {id: 1, name: Corte Simples, descript
+I/flutter ( 8542):   - Agendamentos: {count: 1, next: null, previous: null, results: [{id: 16, client: 5, client_name: admin, barber: 15, barber_name: barba barba, service: 3, service_name: Barba Completa, service_price: 30.00, service_duration: 30, scheduled_for: 2025-10-30T15:55:00-0300, status: completed, notes: , created_at: 2025-10-30T15:26:33-0300, updated_at: 2025-10-30T15:27:31-0300}]}
+I/flutter ( 8542): 📊 Contagens:
+I/flutter ( 8542):   - Barbeiros: 2
+I/flutter ( 8542):   - Serviços: 13
+I/flutter ( 8542):   - Agendamentos: 1
+I/flutter ( 8542): ✅ Dashboard atualizado com sucesso!
+D/EGL_emulation( 8542): app_time_stats: avg=30.54ms min=1.12ms max=183.61ms count=30
+D/EGL_emulation( 8542): app_time_stats: avg=2750.74ms min=2750.74ms max=2750.74ms count=1
+D/EGL_emulation( 8542): app_time_stats: avg=27.09ms min=1.32ms max=390.90ms count=34
+D/EGL_emulation( 8542): app_time_stats: avg=45.76ms min=9.09ms max=926.78ms count=31
+W/WindowOnBackDispatcher( 8542): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8542): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 8542): app_time_stats: avg=28.05ms min=11.54ms max=386.74ms count=36
+W/WindowOnBackDispatcher( 8542): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8542): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 8542): com.barbearia.barbearia_app:37a6479: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+D/InputMethodManager( 8542): showSoftInput() view=io.flutter.embedding.android.FlutterView{2f64398 VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+D/EGL_emulation( 8542): app_time_stats: avg=33.16ms min=0.92ms max=608.77ms count=26
+D/InsetsController( 8542): show(ime(), fromIme=true)
+D/EGL_emulation( 8542): app_time_stats: avg=382.25ms min=9.90ms max=7320.49ms count=21
+I/ImeTracker( 8542): com.barbearia.barbearia_app:37a6479: onShown
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/TextInputPlugin( 8542): Composing region changed by the framework. Restarting the input method.
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+D/EGL_emulation( 8542): app_time_stats: avg=34.39ms min=8.87ms max=218.20ms count=31
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+I/ImeTracker( 8542): com.barbearia.barbearia_app:80921649: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+D/InputMethodManager( 8542): showSoftInput() view=io.flutter.embedding.android.FlutterView{2f64398 VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+I/ImeTracker( 8542): com.barbearia.barbearia_app:9c2e6be1: onRequestShow at ORIGIN_CLIENT_SHOW_SOFT_INPUT reason SHOW_SOFT_INPUT
+D/InputMethodManager( 8542): showSoftInput() view=io.flutter.embedding.android.FlutterView{2f64398 VFE...... .F...... 0,0-1080,2337 #1 aid=1073741824} flags=0 reason=SHOW_SOFT_INPUT
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getTextBeforeCursor on inactive InputConnection
+W/RemoteInputConnectionImpl( 8542): getSurroundingText on inactive InputConnection
+D/InsetsController( 8542): show(ime(), fromIme=true)
+I/ImeTracker( 8542): com.barbearia.barbearia_app:80921649: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/InsetsController( 8542): show(ime(), fromIme=true)
+I/ImeTracker( 8542): com.barbearia.barbearia_app:9c2e6be1: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+D/EGL_emulation( 8542): app_time_stats: avg=74.40ms min=8.23ms max=471.02ms count=17
+D/EGL_emulation( 8542): app_time_stats: avg=293.01ms min=52.80ms max=496.73ms count=4
+I/flutter ( 8542): 🔵 [AuthBloc] Tentando login com: bar1
+I/ImeTracker( 8542): com.barbearia.barbearia_app:964aa705: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT
+W/WindowOnBackDispatcher( 8542): sendCancelIfRunning: isInProgress=falsecallback=ImeCallback=ImeOnBackInvokedCallback@59557760 Callback=android.window.IOnBackInvokedCallback$Stub$Proxy@5225ccf
+D/EGL_emulation( 8542): app_time_stats: avg=198.35ms min=12.22ms max=3654.67ms count=20
+I/flutter ( 8542): ✅ [AuthBloc] Login bem-sucedido: bar1
+W/WindowOnBackDispatcher( 8542): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8542): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+I/ImeTracker( 8542): com.barbearia.barbearia_app:7cc89f3a: onRequestHide at ORIGIN_CLIENT_HIDE_SOFT_INPUT reason HIDE_SOFT_INPUT_BY_INSETS_API
+I/ImeTracker( 8542): com.barbearia.barbearia_app:964aa705: onHidden
+D/EGL_emulation( 8542): app_time_stats: avg=20.68ms min=0.89ms max=183.60ms count=32
+D/EGL_emulation( 8542): app_time_stats: avg=724.59ms min=4.94ms max=1444.23ms count=2
+D/EGL_emulation( 8542): app_time_stats: avg=22.88ms min=9.02ms max=275.84ms count=44
+D/EGL_emulation( 8542): app_time_stats: avg=19.17ms min=11.87ms max=149.15ms count=53
+I/flutter ( 8542): 🔵 Carregando disponibilidade...
+W/WindowOnBackDispatcher( 8542): OnBackInvokedCallback is not enabled for the application.
+W/WindowOnBackDispatcher( 8542): Set 'android:enableOnBackInvokedCallback="true"' in the application manifest.
+D/EGL_emulation( 8542): app_time_stats: avg=35.78ms min=0.76ms max=584.62ms count=27
+I/flutter ( 8542): ✅ Disponibilidade carregada
+D/EGL_emulation( 8542): app_time_stats: avg=252.99ms min=12.72ms max=2852.80ms count=12
+
+══╡ EXCEPTION CAUGHT BY WIDGETS LIBRARY ╞═══════════════════════════════════════════════════════════
+The following assertion was thrown building StatefulBuilder(dirty, state:
+_StatefulBuilderState#c82a1):
+There should be exactly one item with [DropdownButton]'s value: 09:30:00.
+Either zero or 2 or more [DropdownMenuItem]s were detected with the same value
+'package:flutter/src/material/dropdown.dart':
+Failed assertion: line 1796 pos 10: 'items == null ||
+             items.isEmpty ||
+             (initialValue == null && value == null) ||
+             items
+                     .where((DropdownMenuItem<T> item) => item.value == (initialValue ?? value))
+                     .length ==
+                 1'
+
+The relevant error-causing widget was:
+  StatefulBuilder
+  StatefulBuilder:file:///Users/viniciusventura/Projetos/barbearia/lib/features/barber/manage_availability_page.dart:163:29
+
+When the exception was thrown, this was the stack:
+#2      new DropdownButtonFormField (package:flutter/src/material/dropdown.dart:1796:10)
+#3      _ManageAvailabilityPageState._showWeekdayScheduleDialog.<anonymous closure>.<anonymous closure> (package:barbearia_app/features/barber/manage_availability_page.dart:183:17)
+#4      _StatefulBuilderState.build (package:flutter/src/widgets/basic.dart:8299:55)
+#5      StatefulElement.build (package:flutter/src/widgets/framework.dart:5833:27)
+#6      ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5723:15)
+#7      StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#8      Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#9      ComponentElement._firstBuild (package:flutter/src/widgets/framework.dart:5705:5)
+#10     StatefulElement._firstBuild (package:flutter/src/widgets/framework.dart:5875:11)
+#11     ComponentElement.mount (package:flutter/src/widgets/framework.dart:5699:5)
+...     Normal element mounting (199 frames)
+#210    Element.inflateWidget (package:flutter/src/widgets/framework.dart:4548:16)
+#211    MultiChildRenderObjectElement.inflateWidget (package:flutter/src/widgets/framework.dart:7169:36)
+#212    Element.updateChild (package:flutter/src/widgets/framework.dart:4004:18)
+#213    Element.updateChildren (package:flutter/src/widgets/framework.dart:4203:32)
+#214    MultiChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7202:17)
+#215    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#216    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#217    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#218    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#219    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#220    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#221    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#222    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#223    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#224    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#225    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#226    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#227    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#228    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#229    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#230    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#231    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#232    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#233    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#234    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#235    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#236    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#237    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#238    _InheritedNotifierElement.update (package:flutter/src/widgets/inherited_notifier.dart:108:11)
+#239    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#240    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#241    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#242    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#243    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#244    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#245    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#246    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#247    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#248    StatefulElement.update (package:flutter/src/widgets/framework.dart:5909:5)
+#249    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#250    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#251    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#252    SingleChildRenderObjectElement.update (package:flutter/src/widgets/framework.dart:7025:14)
+#253    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#254    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#255    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#256    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#257    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#258    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#259    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#260    ProxyElement.update (package:flutter/src/widgets/framework.dart:6051:5)
+#261    Element.updateChild (package:flutter/src/widgets/framework.dart:3982:15)
+#262    ComponentElement.performRebuild (package:flutter/src/widgets/framework.dart:5747:16)
+#263    StatefulElement.performRebuild (package:flutter/src/widgets/framework.dart:5884:11)
+#264    Element.rebuild (package:flutter/src/widgets/framework.dart:5435:7)
+#265    BuildScope._tryRebuild (package:flutter/src/widgets/framework.dart:2695:15)
+#266    BuildScope._flushDirtyElements (package:flutter/src/widgets/framework.dart:2752:11)
+#267    BuildOwner.buildScope (package:flutter/src/widgets/framework.dart:3056:18)
+#268    WidgetsBinding.drawFrame (package:flutter/src/widgets/binding.dart:1259:21)
+#269    RendererBinding._handlePersistentFrameCallback (package:flutter/src/rendering/binding.dart:495:5)
+#270    SchedulerBinding._invokeFrameCallback (package:flutter/src/scheduler/binding.dart:1434:15)
+#271    SchedulerBinding.handleDrawFrame (package:flutter/src/scheduler/binding.dart:1347:9)
+#272    SchedulerBinding._handleDrawFrame (package:flutter/src/scheduler/binding.dart:1200:5)
+#273    _invoke (dart:ui/hooks.dart:330:13)
+#274    PlatformDispatcher._drawFrame (dart:ui/platform_dispatcher.dart:444:5)
+#275    _drawFrame (dart:ui/hooks.dart:302:31)
+(elided 2 frames from class _AssertionError)
+
+════════════════════════════════════════════════════════════════════════════════════════════════════
+
