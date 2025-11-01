@@ -8,9 +8,10 @@ class ApiConstantsVPS {
   // 🔧 CONFIGURAÇÃO PARA PRODUÇÃO (VPS)
   // ============================================
   // Substitua pelo IP/DOMÍNIO do seu servidor VPS
-  static const String _host = 'SEU_VPS_IP_OU_DOMINIO';
+  // Definido conforme solicitado: 34.59.98.14
+  static const String _host = '34.59.98.14';
 
-  // Porta do backend (ex: 7891)
+  // Porta do backend (mesma porta da config local, altere se necessário)
   static const String _port = '7891';
 
   // ============================================
